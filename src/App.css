@@ -1,0 +1,181 @@
+html {
+  background-color: #0f0f0f;
+  color: #252525;
+}
+
+.container {
+  max-width: 100%;
+  width: 60%;
+  margin: auto;
+  background-color: whitesmoke;
+  padding: 5px 10px;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #ffe896;
+  border: solid 1px #282828;
+  border-radius: 7px;
+  height: 30px;
+  padding: 10px;
+  box-shadow: 5px 5px 0px #282828;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+.navbar span {
+  font-weight: normal;
+  background-color: #ff2525;
+  border-radius: 4px;
+  color: whitesmoke;
+  padding: 2px 5px;
+}
+
+.btn-setting {
+  aspect-ratio: 1/1;
+  height: 100%;
+  border-radius: 6px;
+  border: solid 1px rgb(161, 144, 82);
+  background-color: #ecd688;
+}
+
+.main-section {
+  margin-top: 1rem;
+}
+
+.creator {
+  background-color: #ffffff;
+  border: solid 1px #282828;
+  border-radius: 7px;
+  box-shadow: 5px 5px 0px #282828;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 0.5rem;
+}
+
+.input-judul,
+.input-desc,
+.input-date {
+  width: 100%;
+  border-radius: 10px;
+  padding: 0.5rem 0.7rem;
+  border: solid 1px #282828;
+}
+
+.input-desc {
+  resize: vertical;
+  max-height: 250px;
+}
+
+.btn-tambah {
+  background-color: #9bdcff;
+}
+
+.btn-clear,
+.btn-delete {
+  background-color: #ff2525;
+  color: whitesmoke !important;
+}
+
+.btn-edit {
+  background-color: #ff9b00;
+}
+
+.btn-tambah,
+.btn-clear,
+.btn-delete,
+.btn-edit {
+  border: solid 1px #282828;
+  border-radius: 7px;
+  padding: 1rem;
+  color: #252525;
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: 5px 5px 0px #282828;
+  transition: all 0.05s;
+  transform: translate(-5px, -5px);
+}
+
+.btn-tambah:active,
+.btn-clear:active,
+.btn-delete:active,
+.btn-edit:active {
+  box-shadow: none;
+  transform: translate(0, 0);
+}
+
+.error {
+  font-size: 0.7rem;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+  margin: 0;
+  color: #9c0000;
+}
+
+.input-error {
+  border: solid 1px #9c0000;
+  color: #9c0000;
+}
+
+.buttons {
+  display: flex;
+  height: 50px;
+  gap: 0.5rem;
+}
+
+.card {
+  background-color: #c8c8c8;
+  border: solid 1px #282828;
+  border-radius: 7px;
+  box-shadow: 5px 5px 0px #282828;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: solid 1px #282828;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-header {
+  flex-grow: 1;
+  text-align: start;
+}
+
+.card-header h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.card-header p {
+  margin: 0;
+  padding: 0;
+  font-size: 0.8rem;
+}
+
+.card-footer {
+  display: flex;
+  gap: 0.5rem;
+}
